@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.heading {
+    font-size: 40px;
+}
+
+.container {
+    text-align: center;
+}
+
+.btn {
+    margin-top: 20px;
+    height: 40px;
+    width: 180px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px;
+    cursor: pointer;
+
+}
+
+.btn-dark {
+    background-color:black;
+    color: white;
+}
+
+.btn-light {
+    background-color:whitesmoke;
+    color: black;
+}
+
+
+.bg-dark {
+    background-color: black;
+    color: white;
+}
+
+.bg-light {
+    background-color:whitesmoke;
+    color: black;
+} 

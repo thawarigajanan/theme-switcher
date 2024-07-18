@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Switcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-light" id="main-body">
+
+    <div class="container">
+        <h1 class="heading">Theme Switcher</h1>
+
+        <button type="button" class="btn btn-dark" onclick="enableDark()">Switch To Dark Theme</button>
+
+        <button type="button" class="btn btn-light" onclick="enableLight()">Switch To Light Theme</button>
+    </div>
+
+
+    <script>
+        function enableDark() {
+            const mainBody = document.getElementById("main-body")
+            mainBody.classList.remove("bg-light")
+            mainBody.classList.add("bg-dark")
+        }
+
+        function enableLight() {
+            const mainBody = document.getElementById("main-body")
+            mainBody.classList.remove("bg-dark")
+            mainBody.classList.add("bg-light")
+        }
+
+    </script>
+</body>
+
+</html>
